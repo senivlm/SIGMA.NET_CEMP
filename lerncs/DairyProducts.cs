@@ -18,8 +18,9 @@ namespace lerncs
 			if(IsExpired())
             {
 				percentage = percentage > 40 ? percentage - 30 : percentage;
-            }
-			Price = (int)((double)Price * (percentage / 100d));
+				Price = (int)((double)Price * (percentage / 100d));
+			}
+			
 		}
 		public bool IsExpired()
         {
