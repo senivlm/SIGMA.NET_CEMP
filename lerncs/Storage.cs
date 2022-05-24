@@ -24,13 +24,13 @@ namespace lerncs
         public void Dialogue()
         {
             var pairsToProduct = new Dictionary<string, Product>();
-            pairsToProduct["1"] = new Product("apple", 5, 0.5d);
-            pairsToProduct["2"] = new Product("cake", 50, 1d);
-            pairsToProduct["3"] = new Product("lemon", 10, 0.3d);
+            pairsToProduct["1"] = new Meat(Category.HighSort,Species.mutton,"MuttonHighSort", 110,3);
+            pairsToProduct["2"] = new Product("tomatto", 50, 1.5d);
+            pairsToProduct["3"] = new Product("solt", 10, 2d);
             pairsToProduct["4"] = null;
             do
             {
-                Console.WriteLine("What do you want to buy? \t Apple - 1, \t Cake - 2, \t Lemon - 3, \t Exit - 4");
+                Console.WriteLine("What do you want to buy? \t Mutton - 1, \t Tomatto - 2, \t Solt - 3, \t Exit - 4");
                 var answer = "1";
                 do
                 {
@@ -54,7 +54,7 @@ namespace lerncs
             {
                 if(item is Meat)
                 {
-                    Console.WriteLine("Meat named {0} was found", item.Name);
+                    Console.WriteLine("The meat is {0} was found", item.Name);
                 }
             }
         }
