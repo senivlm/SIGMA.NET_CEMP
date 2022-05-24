@@ -26,7 +26,14 @@ class Program
             storage.Dialogue();
             storage.ShowInfo();
             storage.TryToFindAllMeat();
-
+            var date = new DateTime(2021, 12, 1);
+            var date1 = new DateTime(2024, 12, 1);
+            DairyProducts dairyProducts = new DairyProducts(date, "smth", 30, 15);
+            DairyProducts dairyProducts1 = new DairyProducts(date1, "smth", 30, 15);
+            dairyProducts.ChangePrice(dairyProducts.Price);
+            dairyProducts1.ChangePrice(dairyProducts1.Price);
+            Console.WriteLine(dairyProducts);
+            Console.WriteLine(dairyProducts1);
             //myProduct = myMeetProp;
             //if (myProduct is Meat)
             //{
