@@ -20,8 +20,11 @@ namespace lerncs
 		{
             switch (MeatCategory)
             {
-				case Category.HighSort1:
+				case Category.HighSort:
 					percentage += 25;
+					break;
+				case Category.Sort1:
+					percentage += 15;
 					break;
 				case Category.Sort2:
 					percentage += 10;

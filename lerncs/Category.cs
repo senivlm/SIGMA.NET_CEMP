@@ -2,7 +2,8 @@
 {
     public enum Category
 	{
-		HighSort1,
+		HighSort,
+		Sort1,
 		Sort2
 	}
 }

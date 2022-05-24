@@ -13,8 +13,8 @@ namespace lerncs
 				return price;
 			}
 			set {
-				//if (price < 0)
-					//throw new ArgumentException();
+				if (price < 0)
+					throw new ArgumentException();
 				price = value;
 			}
 		}
@@ -29,8 +29,8 @@ namespace lerncs
 
 		public Product(string name, int price, double weight)
 		{
-			//if (price < 0 || weight < 0)
-				//throw new ArgumentException();
+			if (price < 0 || weight < 0)
+				throw new ArgumentException();
 			Name = name;
 			Price = price;
 			Weight = weight;
