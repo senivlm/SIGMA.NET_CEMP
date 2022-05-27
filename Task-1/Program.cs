@@ -26,6 +26,7 @@ namespace Task_1
                 Console.WriteLine("quantity of products: "+buy.CountOfProducts);
                 Console.WriteLine("Total price: "+buy.PriceOfAll);
                 Console.WriteLine("Total weight: "+buy.WeightOffAll);
+                Check.ShowInfo(buy);
             }
             catch (ArgumentException)
             {
