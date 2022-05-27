@@ -1,0 +1,16 @@
+D:\Sigma.NET\Sigma_Software\Task-1\obj\Debug\net5.0\Task-1.csproj.AssemblyReference.cache
+D:\Sigma.NET\Sigma_Software\Task-1\obj\Debug\net5.0\Task-1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sigma.NET\Sigma_Software\Task-1\obj\Debug\net5.0\Task-1.AssemblyInfoInputs.cache
+D:\Sigma.NET\Sigma_Software\Task-1\obj\Debug\net5.0\Task-1.AssemblyInfo.cs
+D:\Sigma.NET\Sigma_Software\Task-1\obj\Debug\net5.0\Task-1.csproj.CoreCompileInputs.cache
+D:\Sigma.NET\Sigma_Software\Task-1\bin\Debug\net5.0\Task-1.exe
+D:\Sigma.NET\Sigma_Software\Task-1\bin\Debug\net5.0\Task-1.deps.json
+D:\Sigma.NET\Sigma_Software\Task-1\bin\Debug\net5.0\Task-1.runtimeconfig.json
+D:\Sigma.NET\Sigma_Software\Task-1\bin\Debug\net5.0\Task-1.runtimeconfig.dev.json
+D:\Sigma.NET\Sigma_Software\Task-1\bin\Debug\net5.0\Task-1.dll
+D:\Sigma.NET\Sigma_Software\Task-1\bin\Debug\net5.0\Task-1.pdb
+D:\Sigma.NET\Sigma_Software\Task-1\obj\Debug\net5.0\Task-1.dll
+D:\Sigma.NET\Sigma_Software\Task-1\obj\Debug\net5.0\refint\Task-1.dll
+D:\Sigma.NET\Sigma_Software\Task-1\obj\Debug\net5.0\Task-1.pdb
+D:\Sigma.NET\Sigma_Software\Task-1\obj\Debug\net5.0\Task-1.genruntimeconfig.cache
+D:\Sigma.NET\Sigma_Software\Task-1\obj\Debug\net5.0\ref\Task-1.dll
