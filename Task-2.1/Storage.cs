@@ -5,7 +5,7 @@ using System.Text;
 namespace Task_2._1
 {
     public class Storage
-    {
+    {// У класі зовсім не перехоплені винятки.
         protected List<Product> products { get; private set; } = new List<Product>();
         public Storage(params Product[] products)
         {
