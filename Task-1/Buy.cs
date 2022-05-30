@@ -9,6 +9,7 @@ namespace Task_1
         public int CountOfProducts { get; private set; }
         public int PriceOfAll { get; private set; }
         public double WeightOffAll { get; private set; }
+        // Порушена інкапсуляція даних!!!
         public List<Product> _allProducts;
 
         public Buy(params Product[] products)
@@ -30,6 +31,7 @@ namespace Task_1
             WeightOffAll=0;
             _allProducts = new List<Product>();
         }
+        // Варто передбачити купівлю кількох однакових продуктів
         public void AddProduct(Product product)
         {
             if (product != null)
@@ -41,4 +43,5 @@ namespace Task_1
             }
         }
     }
+    Метод ToString не перевизначений!
 }
