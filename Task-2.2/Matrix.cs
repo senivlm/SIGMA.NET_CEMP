@@ -132,7 +132,7 @@ namespace Task_2._2
                 for (int i = 0; i < m; i++)
                 {
                     for (int j = 0; j < n / 2; j++)
-                    {
+                    {//обмінювати можна кортежем
                         var tmp = matrix[i, j];
                         matrix[i, j] = matrix[i, m - j - 1];
                         matrix[i, m - j - 1] = tmp;
@@ -140,7 +140,7 @@ namespace Task_2._2
                 }
 
         }
-
+// Це тільки навчальний метод. Краще ToString
         public void ShowMatrix()
         {
             for (int i = 0; i < n; i++)
