@@ -31,7 +31,7 @@ namespace Task_3
         }
 
         public Vector(int[] arr)
-        {
+        {// Так не можна робити. Ви робите прив'язку 2 об'єктів!!! Тут слід реалізувати глибоку копію!! Якщо не зрозуміли коментар, зверніться особисто, я поясню.Дуже важливо!!
             this.arr = arr;
         }
 
@@ -72,7 +72,7 @@ namespace Task_3
             for (int i = 0; i < middle; i++)
             {
                 if (!(arr[i] == arr[lenght - 1 - i]))
-                {
+                {// тут треба не роздруковувати, а генерувати виняток!
                     Console.WriteLine("Not a Palindrome");
                     return false;
                     
